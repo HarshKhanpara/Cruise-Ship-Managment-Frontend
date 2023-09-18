@@ -1,7 +1,7 @@
 import React from 'react'
 import { ArrowRight } from 'lucide-react'
-
-export default function Login() {
+import { useNavigate ,useLocation} from 'react-router-dom'
+export default function Login(props) {
   return (
     <section>
       <div className="grid grid-cols-1 lg:grid-cols-2">
